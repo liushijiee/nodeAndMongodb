@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>
+            <h2>表单1-get请求</h2>
+        </legend>
+        <form action="http://localhost:8002/get" method="get">
+            <input type="text" placeholder="用户名" name="username"><br>
+            <input type="text" name="password" placeholder="密码"><br>
+            <input type="submit" value="登录">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>表单2-css文件请求</h2>
+        </legend>
+        <form action="http://localhost:8002/css" method="get">
+            <input type="submit" value="请求css" name="" id="">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>表单3-post请求</h2>
+        </legend>
+        <form action="http://localhost:8002" method="post">
+            <input type="text" placeholder="用户名" name="username"><br>
+            <input type="text" name="password" placeholder="密码"><br>
+            <input type="submit" value="登录2">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h2>表单4-img图片请求</h2>
+        </legend>
+        <form action="http://localhost:8002/img" method="get">
+            <input type="submit" value="请求img">
+        </form>
+    </fieldset>
+</body>
+</html>
